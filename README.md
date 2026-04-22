@@ -1,28 +1,24 @@
-# Image Processing with OpenCV
+# Traitement d'Image avec OpenCV
 
-Implementation of fundamental image processing techniques in Python and OpenCV, covering spatial filtering, morphological operations, thresholding, and camera models.
+Implémentation des techniques fondamentales de traitement d'image en Python et OpenCV.
 
-## Topics Covered
+## Sujets couverts
 
-- Camera pinhole model and 3D-to-2D projection
-- Image quantization and color depth reduction
-- Histogram analysis, equalization, and dynamic range stretching
-- Otsu thresholding and adaptive thresholding
-- 2D convolution (scipy)
-- Nagao filter implementation
-- Morphological operations: erosion, dilation, opening, closing
+- Modèle de caméra sténopé et projection 3D→2D
+- Quantification d'image et réduction de profondeur couleur
+- Histogrammes, égalisation et extension de la dynamique
+- Seuillage d'Otsu et seuillage adaptatif
+- Convolution 2D (scipy)
+- Filtre de Nagao
+- Opérations morphologiques : érosion, dilatation, ouverture, fermeture
 
-## Tech Stack
+## Stack technique
 
-- Python
-- OpenCV
-- NumPy
-- SciPy
-- Matplotlib
+- Python, OpenCV, NumPy, SciPy, Matplotlib
 
-## Setup
+## Installation
 
 ```bash
-pip install opencv-python numpy scipy matplotlib
+pip install opencv-python numpy scipy matplotlib jupyter
 jupyter notebook
 ```
